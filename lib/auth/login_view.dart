@@ -38,8 +38,8 @@ class LoginView extends GetView<AuthLogic> {
                     hintText: 'Password',
                     contentPadding: EdgeInsets.symmetric(vertical: 20),
                   ),
-                  onChanged: (txt) => controller.userModel.value.email,
-                  onSaved: (txt) => controller.userModel.value.email,
+                  onChanged: (txt) => controller.userModel.value.password,
+                  onSaved: (txt) => controller.userModel.value.password,
                 )
               ],
             ),
